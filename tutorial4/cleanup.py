@@ -11,3 +11,5 @@ metadata.create_all(bind=engine)
 # after you recreate the tables, run inserting.py to put all the data back into the database.
 # note that inserting.py needs a file called dictlist.txt a text file with dictionary entries.
 # this dictionary is created by dictconv.py from data.csv
+
+import inserting
